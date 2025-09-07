@@ -1,0 +1,55 @@
+/* まず、style.cssにこのルールを書き入れてください。 */
+/* body {
+  font-size: 200%;
+} */
+
+/* ここにルールを足していきましょう。*/
+h1 {
+  height: 58px;
+  text-align: center;
+  color:green;
+  background-color: yellow;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+div{
+  width: 550px;
+  margin: 0 auto 50px;
+}
+
+/* テキスト入力エリアのスタイル */
+.inputText {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ボタンのスタイル */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* footer {
+  background-color: chocolate;
+  color:black;
+  padding: 14px 10px 20px;
+  text-align: center;
+} */
+
