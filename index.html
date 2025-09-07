@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+      body {
+        margin: 0;
+        /* height: 100vh; */
+      }
+      </style>
+      <script src="./script.js" defer></script>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <title>カード合わせ</title>
+      <style>
+        #clock{ font-size:30px; }
+        #field{ width: 550px; }
+        .card {
+            width:100px;
+            height:100px;
+            line-height:100px;
+            text-align:center;
+            border:2px solid #059b3e;
+            border-radius:50px;
+            font-size:30px;
+            margin:8px;
+            float:left;
+            background-color: beige;
+        }
+      </style>
+   </head>
+
+  <nav id="menu">
+    <ul>    
+      <li><a href="#dcu_two">About</a></li>
+      <li><a href="#LAST">ご参考）配置を記憶するVer.</a></li>
+    </ul>
+  </nav>
+  <style>
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+  </style>
+
+<!-- <label>
+  <input type="checkbox" id="toggleButton"> カード配置を記憶する
+</label> -->
+
+   <body>
+      <script>
+        document.body.style.backgroundImage = "url('./image/Day20_0bk.png')";
+        document.body.style.backgroundSize = "auto"; // 画像を画面全体にフィット
+        document.body.style.backgroundPosition = "center"; // 中央に配置
+      </script>
+      <h1>カード合わせ：何秒で完成？？　
+          <button class="btn" onclick="reload()">もう一回あそぶ</button>
+      </h1>
+      <div id ="clock"></div>
+      <div id ="field"></div>
+   </body>
+
+    <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <h2 id="dcu_two"></h2>
+  <h2>最終日までの道：役立った工夫点<br><br>
+    <img src="image\Day20_1.png" alt="付け添え画像1" width="750" height="400"><br><br>
+  </h2>
+  <h2>描いた理想に対する今回の状況<br><br>
+    <img src="image\Day20_2.png" alt="付け添え画像2" width="750" height="400"><br>
+  </h2>
+  <h2><br>
+  <img src="image\Day20_3.png" alt="付け添え画像2" width="750" height="400">
+  </h2>
+  <h3>
+    <nav class="menu2">
+      <ul>    
+        <li><a href="#menu">上に戻る</a></li>
+      </ul>
+    </nav>
+    <br><br><br><br><br>
+  <div id="LAST"></div>
+  </h3>
+ 
+  <h2>カード配置を記憶するVer.<br><br>
+    <img src="image\Day20_4.png" alt="付け添え画像3" width="750" height="400"><br><br><br><br>
+  </h2>
+  <h3>
+    <nav class="menu3">
+      <ul>    
+        <li><a href="#menu">　20日間 ありがとうございました　（上に戻る）</a></li>
+      </ul>
+    </nav>
+    <br><br><br><br><br><br><br><br><br>
+  </h3>
+</html>
